@@ -1,0 +1,16 @@
+# 打包产物与中间文件
+build/
+dist/
+release/
+release-new/
+*.spec
+__pycache__/
+
+# 用户私有配置（工具会在 exe 旁边生成）
+TMLWorldMods.json
+TMLWorldMods.json.bak*
+TMLWorldMods-check.txt
+
+# 开发辅助（截图脚本依赖本机环境）
+shot_ui.py
+ui_*.png
